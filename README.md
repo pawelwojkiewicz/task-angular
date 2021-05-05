@@ -15,7 +15,7 @@
 4. On the right of the list display the 'elements-details' component with all the information of the selected element
 
 5. Create a new component called 'colors'
-6. In the 'colors' component display a table with sorting and pagination with data provided in assets/data/colors.json
+6. In the 'colors' component display a table with data provided in assets/data/colors.json (optional: add sorting and pagination to the table) 
 
 7. Implement routing for the 'elements-list' and 'colors' components. Display each of them inside .content in app.component
 8. In app.component add menu that opens on button click and add routes to the 'elements-list' and 'colors' components

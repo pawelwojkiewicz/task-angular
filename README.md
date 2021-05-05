@@ -1,8 +1,9 @@
 # Recruitment-task-angular
 
 ## Information: 
-* To solve this task, you can, but you don't have to use the Angular Material library.
+* To solve this task, you can, but you don't have to use the Angular Material library : https://material.angular.io/
 * It is strongly recomended to use it in case of the table though (point 6.), as it provides all the required functionality
+* Angular Material is already installed in this project
 * If you have any questions, please do not hesitate to ask.
 * Good luck!
 

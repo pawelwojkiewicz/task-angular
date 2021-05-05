@@ -1,13 +1,12 @@
 # Recruitment-task-angular
 
-INFORMATION: 
-To solve this task, you can, but you don't have to use the Angular Material library.
-It is strongly recomended to use it in case of the table though (point 6.), as it provides all the required functionality
-If you have any questions, please do not hesitate to ask.
-Good luck!
+## Information: 
+* To solve this task, you can, but you don't have to use the Angular Material library.
+* It is strongly recomended to use it in case of the table though (point 6.), as it provides all the required functionality
+* If you have any questions, please do not hesitate to ask.
+* Good luck!
 
-
-Recruitment excercise
+## Recruitment task
 
 1. Create a new component called 'elements-list'
 2. Create a new component called 'elements-details'
@@ -34,10 +33,10 @@ Recruitment excercise
 get first 10 colors from assets/data/colors.json. Each click on the element should change the background to the next color in the array.
 On the 11th click the background should be black again and the cycle should start again.
 
-18.Add the directive to every element of the matrix
+18. Add the directive to every element of the matrix
 
 
-Delivering the solution
+## Delivering the solution
 
-After you're done with the task, create a new repository on GitLab, GitHub or BitBucket and push your solution there.
-Sent the link to the repository to us.
+* After you're done with the task, create a new repository on GitLab, GitHub or BitBucket and push your solution there.
+* Sent the link to the repository to us.

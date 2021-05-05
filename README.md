@@ -1,27 +1,43 @@
-# RecruitmentTask
+# Recruitment-task-angular
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.7.
+INFORMATION: 
+To solve this task, you can, but you don't have to use the Angular Material library.
+It is strongly recomended to use it in case of the table though (point 6.), as it provides all the required functionality
+If you have any questions, please do not hesitate to ask.
+Good luck!
 
-## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Recruitment excercise
 
-## Code scaffolding
+1. Create a new component called 'elements-list'
+2. Create a new component called 'elements-details'
+3. In the 'elements-list' component display selectable list of elements names, loaded from assets/data/elements.json 
+4. On the right of the list display the 'elements-details' component with all the information of the selected element
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+5. Create a new component called 'colors'
+6. In the 'colors' component display a table with sorting and pagination with data provided in assets/data/colors.json
 
-## Build
+7. Implement routing for the 'elements-list' and 'colors' components. Display each of them inside .content in app.component
+8. In app.component add menu that opens on button click and add routes to the 'elements-list' and 'colors' components
+9. On application start redirect to the 'colors' component
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+10. Add a new module with one component inside called 'coloring-matrix'
+11. In the 'coloring-matrix' component add an input which accepts number values from 10 to 100, with the default value of 20
+12. In the 'coloring-matrix' component generate a matrix of divs elements, with size specified by the input value (the same number of columns and rows). 
+13. Each matrix element should have the same size, 15px x 15px, and background color black
+14. The space between each two elements should be 1px
 
-## Running unit tests
+15. Lazy load the 'coloring-matrix' module under route 'coloring-matrix'. It should show 'coloring-matrix' component.
+16. Add a button inside the 'colors' component redirecting to the 'coloring-matrix'
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+17. Create a new directive that will modify the background color of the clicked element:
+get first 10 colors from assets/data/colors.json. Each click on the element should change the background to the next color in the array.
+On the 11th click the background should be black again and the cycle should start again.
 
-## Running end-to-end tests
+18.Add the directive to every element of the matrix
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 
-## Further help
+Delivering the solution
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+After you're done with the task, create a new repository on GitLab, GitHub or BitBucket and push your solution there.
+Sent the link to the repository to us.

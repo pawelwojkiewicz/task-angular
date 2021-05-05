@@ -40,4 +40,4 @@ On the 11th click the background should be black again and the cycle should star
 ## Delivering the solution
 
 * After you're done with the task, create a new repository on GitLab, GitHub or BitBucket and push your solution there.
-* Sent the link to the repository to us.
+* Send the link to the repository to us.

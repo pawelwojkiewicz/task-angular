@@ -30,8 +30,8 @@
 get first 10 colors from assets/data/colors.json. Each click on the element should change the background to the next color in the array.
 On the 11th click the background should be black again and the cycle should start again.
 
-16. Add the directive to every element of the matrix
-
+16. Add the directive to every element of the matrix.
+17. Save the current background of each element and restore it on application reload.
 
 ## Delivering the solution
 

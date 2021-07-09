@@ -1,0 +1,14 @@
+.elements-list {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+
+  &__list {
+    width: 250px;
+    margin-right: 20px;
+  }
+
+  &__detail {
+    flex: 0.5;
+  }
+}

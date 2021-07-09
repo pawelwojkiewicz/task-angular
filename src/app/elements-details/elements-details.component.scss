@@ -1,0 +1,22 @@
+.elements-details {
+
+  &__title {
+    font-size: 60px;
+    line-height: normal;
+  }
+
+  &__row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+
+  &__text-title {
+    margin-bottom: 0;
+  }
+
+  &__text {
+    margin-left: 5px;
+    margin-bottom: 0;
+  }
+}

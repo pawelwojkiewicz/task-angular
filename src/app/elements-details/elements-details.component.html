@@ -1,0 +1,22 @@
+<div *ngIf="(elementDetails$ | async) as element">
+  <h2>Elements details:</h2>
+  <mat-card>
+    <h2 class="elements-details__title">{{element.symbol}}</h2>
+    <div class="elements-details__row">
+      <h3 class="elements-details__text-title">Name:</h3>
+      <p class="elements-details__text">{{element.name}}</p>
+    </div>
+    <div class="elements-details__row">
+      <h3 class="elements-details__text-title">Weight:</h3>
+      <p class="elements-details__text">{{element.weight}}</p>
+    </div>
+    <div class="elements-details__row">
+      <h3 class="elements-details__text-title">Position:</h3>
+      <p class="elements-details__text">{{element.position}}</p>
+    </div>
+    <div class="elements-details__row">
+      <h3 class="elements-details__text-title">Symbol:</h3>
+      <p class="elements-details__text">{{element.symbol}}</p>
+    </div>
+  </mat-card>
+</div>

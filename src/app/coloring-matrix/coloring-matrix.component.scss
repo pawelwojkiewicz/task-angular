@@ -1,0 +1,11 @@
+.coloring-matrix {
+  display: flex;
+  flex-wrap: wrap;
+
+  &__box {
+    width: 15px;
+    height: 15px;
+    background: #000000;
+    margin: 1px;
+  }
+}

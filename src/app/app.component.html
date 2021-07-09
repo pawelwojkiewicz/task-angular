@@ -1,10 +1,16 @@
 <mat-toolbar>
-  <button mat-icon-button>
+  <button mat-icon-button
+          [matMenuTriggerFor]="menu">
     <mat-icon>more_vert</mat-icon>
   </button>
+  <mat-menu #menu="matMenu">
+    <button routerLink="/"
+            mat-menu-item>Element list</button>
+    <button mat-menu-item
+            routerLink="coloring-matrix">Coloring Matrix</button>
+  </mat-menu>
   <h2>Angular Recruitment Task</h2>
 </mat-toolbar>
-
 <div class="content">
-
+  <router-outlet></router-outlet>
 </div>

@@ -1,0 +1,33 @@
+<div class="container">
+  <mat-form-field [formGroup]="matrixForm"
+                  appearance="fill">
+    <mat-label>Number of elements</mat-label>
+    <input matInput
+           type="number"
+           (input)="inputValue()"
+           max="100"
+           min="0"
+           [(ngModel)]="numberValue"
+           name="numberInput"
+           formControlName="number">
+    <mat-error
+               *ngIf="matrixForm.controls.number.hasError('required') && (matrixForm.controls.number.touched || matrixForm.controls.number.invalid)">
+      Number is required </mat-error>
+    <mat-error
+               *ngIf="matrixForm.controls.number.hasError('min') && (matrixForm.controls.number.touched || matrixForm.controls.number.invalid)">
+      Minimum value must be 10</mat-error>
+    <mat-error
+               *ngIf="matrixForm.controls.number.hasError('max') && (matrixForm.controls.number.touched || matrixForm.controls.number.invalid)">
+      Maximum value must be 100</mat-error>
+  </mat-form-field>
+  <div *ngIf="(colors$|async) as colors"
+       class="coloring-matrix">
+    <div *ngFor="let i of coloringMatrix">
+      <div appBackgroundColor
+           *ngFor="let j of i"
+           [colors]="colors"
+           class="coloring-matrix__box">
+      </div>
+    </div>
+  </div>
+</div>

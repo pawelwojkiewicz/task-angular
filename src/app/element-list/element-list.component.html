@@ -1,0 +1,17 @@
+<div class="container elements-list">
+  <div class="elements-list__list">
+    <h2>Elements list:</h2>
+    <mat-selection-list [multiple]="false">
+      <mat-list-option [routerLink]="index"
+                       *ngFor="let element of (chemicalElements$ | async); let index=index"> {{element.name}}
+      </mat-list-option>
+    </mat-selection-list>
+  </div>
+  <div class="elements-list__detail">
+    <router-outlet></router-outlet>
+  </div>
+  <button mat-button
+          routerLink="/coloring-matrix"
+          color="primary"
+          class="mat-raised-button">Go to coloring matrix</button>
+</div>
